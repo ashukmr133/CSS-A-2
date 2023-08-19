@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color:greenyellow; */
+    background-image: url(pawel-czerwinski-fRzUPSFnp04-unsplash.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border:10px solid greenyellow;
+    border-style: groove;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+
+.part1{
+    display: flex;
+}
+
+
+.box1 h1{
+    border: 7px solid red;
+    background-color: #000;
+    color: white;
+    border-radius:30px;
+    margin: 30px 0px 0px 10px;
+    padding: 20px 15px 30px 15px ;
+    width: 450px;
+}
+
+.box2 {
+    border: 7px solid red;
+    background-color: #000;
+    color: white;
+    border-radius: 35px;
+    margin: 34px 50px 0px -200px;
+    width: 350px;
+    height: 50px;
+    padding: 15px 10px 0px 50px;
+}
+
+.box3 {
+    border: 7px solid red;
+    background-color: #000;
+    color: white;
+    border-radius:30px;
+    margin: 30px 50px 0px 400px;
+    width: 200px;
+    padding:20px 40px 0px 40px;
+}
+
+/* -------------------------------------------------part2---------------------------- */
+
+.part{
+    display: flex;
+}
+
+.part2{
+    width: 450px;
+    height: 450px;
+    border: 10px solid grey;
+    border-radius: 50%;
+    margin: 200px 0px 0px 80px;
+    background-color: green;   
+}
+
+.rate{
+    text-transform: uppercase;
+}
+
+
+.part22{
+   text-align: center;
+    width: 400px;
+    margin: 100px 0px 0px 20px ;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.part3{
+    border: 5px dashed red;
+    /* width: 500px;
+    height: 800px; */
+    color: red;
+    margin: 50px 0px 0px 200px ;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+   
+}
+
+
+
+.part3 h2{
+    padding: 15px 10px 10px 10px;
+}
+
+
+.menu{
+    text-align: center;
+    border: 7px solid red;
+    width: 500px;
+    margin: 30px 0px 0px 35%;
+    background-color: #000;
+    color: aliceblue;
+    border-radius: 50px;
+}
+
+/* ---------------------------------------------part3------------------------------------- */
+
+
+.food{
+    margin-top: 50px;
+}
+
+.food1{
+    display: flex;
+justify-content: space-around;   
+
+}
+
+.food2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.ditto{
+    border: 2px solid green;
+    border-radius: 30px;
+    background-color: aqua;
+    color: blue;
+    width: 300px;
+    text-align: center;
+}
+
+
+
